@@ -3,8 +3,16 @@
     color: black;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #CCCDCE;
+}
+
 li {
-    /*float:left;*/
+    float:left;
     background-color: #CCCDCE;
     color: black;
 }
