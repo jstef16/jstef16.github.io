@@ -11,13 +11,13 @@ ul {
     background-color: #CCCDCE;
 }
 
-li {
+#header {
     float:left;
     background-color: #CCCDCE;
     color: black;
 }
 
-li a {
+#header a {
     display: block;
     color: black;
     text-align: center;
@@ -25,7 +25,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+#header a:hover {
     background-color: #4F5051;
     color: white;
 }
