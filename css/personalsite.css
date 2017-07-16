@@ -4,11 +4,9 @@
 }
 
 ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #CCCDCE;
+    background-color: #2A9301;
 }
 
 .header {
@@ -19,6 +17,7 @@ ul {
 }
 
 .header a {
+    float:left;
     display: block;
     color: whitesmoke;
     text-align: center;
