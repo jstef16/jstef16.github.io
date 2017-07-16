@@ -3,5 +3,5 @@
       }
 
       function LoadAbout(){
-          $scope.load("pages\about.html");
+          return "pages\about.html";
       }
