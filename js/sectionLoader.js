@@ -1,8 +1,8 @@
       function LoadHeader(){
-        document.getElementById("#header")("../pages/header.html");
+        document.getElementById("header")("../pages/header.html");
       }
 
       function LoadAbout(){
         //   document.location = "../pages/about.html";
-        $scope.load("../pages/about.html"); 
+        document.load("../pages/about.html"); 
       }
