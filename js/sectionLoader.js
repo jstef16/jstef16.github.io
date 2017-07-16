@@ -3,5 +3,5 @@
       }
 
       function LoadAbout(){
-          return "../pages/about.html";
+          document.location = "../pages/about.html";
       }
