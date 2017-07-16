@@ -11,21 +11,22 @@ ul {
     background-color: #CCCDCE;
 }
 
-#header {
+.header {
+    width:100%;
     float:left;
-    background-color: #CCCDCE;
-    color: black;
+    background-color: #2A9301;
+    color: whitesmoke;
 }
 
-#header a {
+.header a {
     display: block;
-    color: black;
+    color: whitesmoke;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-#header a:hover {
+.header a:hover {
     background-color: #4F5051;
     color: white;
 }
