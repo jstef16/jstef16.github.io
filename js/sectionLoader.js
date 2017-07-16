@@ -1,5 +1,5 @@
       function LoadHeader(){
-        document.getElementById("header")("../pages/header.html");
+        document.load("../pages/header.html");
       }
 
       function LoadAbout(){
