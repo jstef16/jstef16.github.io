@@ -1,7 +1,7 @@
       function LoadHeader(){
-          $document.load("../pages/header.html");
+          $("#header").load("../pages/header.html");
       }
 
       function LoadAbout(){
-          document.load("../pages/about.html");
+          $("#content").load("../pages/about.html");
       }
