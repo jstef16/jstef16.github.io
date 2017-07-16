@@ -1,19 +1,23 @@
 .active {
-    background-color: #2A9301;
-    color: black;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    background-color: #2A9301;
+    background-color: #4F5051;
+    color: whitesmoke;
 }
 
 .header {
     width:100%;
-    float:left;
     background-color: #2A9301;
     color: whitesmoke;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #2A9301;
+}
+
+.header li {
+    display: inline;
 }
 
 .header a {
