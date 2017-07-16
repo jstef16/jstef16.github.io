@@ -18,14 +18,12 @@ ul {
 
 .header a {
     float:left;
-    display: block;
     color: whitesmoke;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
 
 .header a:hover {
     background-color: #4F5051;
     color: white;
+    cursor: pointer;
 }
