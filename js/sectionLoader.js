@@ -30,7 +30,7 @@
       function SetActiveTab(tabName){
         var tabs = document.getElementsByClassName("tab");
         for(var i = 0; i < tabs.length; i++){
-            tabs[i].removeClass("active");
+            tabs[i].classList.remove("active");
         }
-        document.getElementById(tabName).addClass("active");
+        document.getElementById(tabName).classList.add("active");
       }
