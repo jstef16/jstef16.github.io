@@ -13,10 +13,12 @@
     background-color: #2A9301;
     margin: 0;
     padding: 0;
+    table-layout: fixed;
     width: 100%;
 }
 
 .header td {
+    color: whitesmoke;
     padding: 10;
     text-align: center;
 }
