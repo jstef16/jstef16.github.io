@@ -21,7 +21,7 @@
         $("#content").load("../pages/projects.html");
         SetActiveTab("projects");
       }
-      
+
       function LoadWorkExperience(){
         $("#content").load("../pages/workexperience.html");
         SetActiveTab("experience")
@@ -29,6 +29,8 @@
 
       function SetActiveTab(tabName){
         var tabs = document.getElementsByClassName("tab");
-        tabs.each($(this).removeClass("active"));
+        tabs.forEach(tab => {
+            tab.removeClass("active");
+        });
         document.getElementById(tabName).addClass("active");
       }
