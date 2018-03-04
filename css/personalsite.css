@@ -22,7 +22,8 @@
 .header table {
     background-color: #2A9301;
     border-spacing: 0;
-    margin: 0;
+    margin-bottom: 8px;
+    margin-top: 0;
     padding: 0;
     table-layout: fixed;
     width: 100%;
