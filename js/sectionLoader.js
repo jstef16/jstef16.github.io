@@ -3,7 +3,7 @@
       }
 
       function LoadAbout(){
-        ("#content").load("../pages/about.html");
+        $("#content").load("../pages/about.html");
         SetActiveTab("about");
       }
 
