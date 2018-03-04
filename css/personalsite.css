@@ -3,6 +3,14 @@
     color: whitesmoke;
 }
 
+.body {
+    margin: 0;
+}
+
+.content {
+    margin: 8px;
+}
+
 .header {
     background-color: #2A9301;
     color: whitesmoke;
@@ -36,11 +44,16 @@
 }
 
 .name {
-    font-family:Lato, Arial, sans-serif;
+    font-family: Raleway, Lato, Arial, sans-serif;
     size: 24pt;
     text-align: center;
 }
 
 .page {
     font-family: Lato, Arial, sans-serif;
+}
+
+.subheader {
+    font-family: Raleway, Lato, Arial, sans-serif;
+    size: 20pt;
 }
