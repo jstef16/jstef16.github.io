@@ -29,8 +29,8 @@
 
       function SetActiveTab(tabName){
         var tabs = document.getElementsByClassName("tab");
-        tabs.forEach(tab => {
-            tab.removeClass("active");
-        });
+        for(var i = 0; i < tabs.length; i++){
+            tabs[i].removeClass("active");
+        }
         document.getElementById(tabName).addClass("active");
       }
