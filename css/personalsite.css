@@ -16,19 +16,18 @@
     width: 100%;
 }
 
-.header a {
-    color: whitesmoke;
+.header td {
+    padding: 10;
     text-align: center;
 }
 
-.header a:hover {
+.header td:hover {
     background-color: #4F5051;
-    color: white;
     cursor: pointer;
 }
 
 .name {
-    font-family: Raleway, Lato, Arial, sans-serif;
+    font-family: Raleway Medium, Lato, Arial, sans-serif;
     size: 24pt;
     text-align: center;
 }
