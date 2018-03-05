@@ -28,9 +28,14 @@
       }
 
       function SetActiveTab(tabName){
-        var tabs = document.getElementById("tabs").rows[0].cells;
-        for(var i = 0; i < tabs; i++){
-            tabs[i].classList.remove("active");
+        var tabsTable = document.getElementById("tabs").rows[0].cells;
+
+        if(tabsTable){
+            var tabs = tabsTable.rows[0].cells;
+            for(var i = 0; i < tabs; i++){
+                var foo = tabs[i].classList.contains("active");
+                tabs[i].classList.remove("active");
+            }
+            tabs.namedItem(tabName).classList.add("active");
         }
-        tabs.namedItem(tabName).classList.add("active");
       }
