@@ -28,8 +28,8 @@
       }
 
       function SetActiveTab(tabName){
-        var tabs = document.getElementById("tabs");
-        for(var i = 0; i < tabs.children[0].children[0].children; i++){
+        var tabs = document.getElementById("tabs").cells;
+        for(var i = 0; i < tabs; i++){
             tabs[i].classList.remove("active");
         }
         tabs.namedItem(tabName).classList.add("active");
