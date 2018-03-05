@@ -32,5 +32,5 @@
         for(var i = 0; i < tabs.length; i++){
             tabs[i].classList.remove("active");
         }
-        document.getElementById(tabName).classList.add("active");
+        document.getElementById(tabName).style.classList.add("active");
       }
