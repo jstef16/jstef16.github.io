@@ -28,7 +28,7 @@
       }
 
       function SetActiveTab(tabName){
-        var tabsTable = document.getElementById("tabs").rows[0].cells;
+        var tabsTable = document.getElementById("tabs");
 
         if(tabsTable){
             var tabs = tabsTable.rows[0].cells;
