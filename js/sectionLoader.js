@@ -29,7 +29,7 @@
 
       function SetActiveTab(tabName){
         var tabs = document.getElementById("tabs");
-        for(var i = 0; i < tabs.length; i++){
+        for(var i = 0; i < tabs.children[0].children[0].children; i++){
             tabs[i].classList.remove("active");
         }
         tabs.namedItem(tabName).classList.add("active");
