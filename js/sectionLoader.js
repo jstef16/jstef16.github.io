@@ -28,9 +28,9 @@
       }
 
       function SetActiveTab(tabName){
-        var tabs = document.getElementsByClassName("tab");
-        for(var i = 0; i < tabs.length; i++){
+        var tabs = document.getElementById("tabs");
+        for(var i = 0; i < tabs[0].length; i++){
             tabs[i].classList.remove("active");
         }
-        document.getElementById(tabName).style.classList.add("active");
+        tabs.namedItem(tabName).classList.add("active");
       }

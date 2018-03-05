@@ -23,7 +23,22 @@
     width: 100%;
 }
 
-.header table {
+.header .tab {
+    color: whitesmoke;
+    padding: 10;
+    text-align: center;
+}
+
+.header .tab:hover {
+    background-color: #4F5051;
+    cursor: pointer;
+}
+
+.header .tab active {
+    background-color: #4F5051;
+}
+
+.header .tabs {
     background-color: #2A9301;
     border-spacing: 0;
     margin: 0;
@@ -50,17 +65,3 @@
     margin-top: 20px;
 }
 
-tab {
-    color: whitesmoke;
-    padding: 10;
-    text-align: center;
-}
-
-tab:hover {
-    background-color: #4F5051;
-    cursor: pointer;
-}
-
-tab active {
-    background-color: #4F5051;
-}
