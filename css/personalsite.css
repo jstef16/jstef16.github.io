@@ -32,22 +32,6 @@
     width: 100%;
 }
 
-.header td {
-    color: whitesmoke;
-    padding: 10;
-    text-align: center;
-}
-
-.header td:hover {
-    background-color: #4F5051;
-    cursor: pointer;
-}
-
-.header td active {
-    background-color: #4F5051;
-    color: whitesmoke;
-}
-
 .name {
     font-family: Raleway, Lato, Arial, sans-serif;
     font-size: 28pt;
@@ -64,4 +48,19 @@
     font-size: 20pt;
     margin-bottom: 10px;
     margin-top: 20px;
+}
+
+tab {
+    color: whitesmoke;
+    padding: 10;
+    text-align: center;
+}
+
+tab:hover {
+    background-color: #4F5051;
+    cursor: pointer;
+}
+
+tab active {
+    background-color: #4F5051;
 }
