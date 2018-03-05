@@ -34,7 +34,7 @@
     cursor: pointer;
 }
 
-.header .tab .active {
+.header .tab.active {
     background-color: #4F5051;
 }
 
