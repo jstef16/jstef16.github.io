@@ -32,8 +32,7 @@
 
         if(tabsTable){
             var tabs = tabsTable.rows[0].cells;
-            for(var i = 0; i < tabs; i++){
-                var foo = tabs[i].classList.contains("active");
+            for(var i = 0; i < tabs.length; i++){
                 tabs[i].classList.remove("active");
             }
             tabs.namedItem(tabName).classList.add("active");
