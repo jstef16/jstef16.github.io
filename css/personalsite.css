@@ -47,6 +47,10 @@
     width: 100%;
 }
 
+.jobHeader {
+    margin-bottom: 10px;
+}
+
 .name {
     font-family: Raleway, Lato, Arial, sans-serif;
     font-size: 28pt;
