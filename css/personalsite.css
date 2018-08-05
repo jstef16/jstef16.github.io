@@ -26,6 +26,8 @@
     background-color: #2A9301;
     color: whitesmoke;
     padding-top: 10px;
+    position: fixed;
+    top: 0;
     width:100%;
 }
 
