@@ -3,6 +3,10 @@ function PlaceContent(){
     $("#content").css("margin-top", headerHeight + "px");
 }
 
-$(window).resize(function () {
+$(window).resize(function() {
+    PlaceContent();
+});
+
+$(document).ready(function() {
     PlaceContent();
 });
