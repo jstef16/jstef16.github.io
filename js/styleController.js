@@ -11,10 +11,9 @@ function PlaceContent(){
 
 function ExtendContent(){
     var contentHeight = $("#contentBlock").outerHeight(true);
-    var contentPadding = $("#content").css("padding-bottom");
 
     if(contentHeight > 0){
-        $("#content").css("padding-bottom", contentHeight + contentPadding);
+        $("#content").css("padding-bottom", contentHeight + 16);
     }
     else{
         ExtendContent();
