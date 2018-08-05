@@ -9,6 +9,19 @@ function PlaceContent(){
     }
 }
 
+function ExtendContent(){
+    var contentHeight = $("#contentBlock").outerHeight(true);
+    var contentPadding = $("#content").css("padding-bottom");
+
+    if(contentHeight > 0){
+        $("#content").css("padding-bottom", contentHeight + contentPadding);
+    }
+    else{
+        ExtendContent();
+    }
+}
+
 $(window).resize(function() {
     PlaceContent();
+    ExtendContent();
 });
