@@ -3,9 +3,7 @@ function LoadHeader(){
 }
 
 function LoadContent(content){
-  $("#content").load("../pages/" + content + ".html");
-  SetActiveTab(content);
-  ExtendContent();
+  $("#content").load("../pages/" + content + ".html", function () {SetActiveTab(content)});
 }
 
 function SetActiveTab(tabName){
@@ -18,4 +16,5 @@ function SetActiveTab(tabName){
       }
       tabs.namedItem(tabName).classList.add("active");
   }
+  ExtendContent();
 }
