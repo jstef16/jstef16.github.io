@@ -1,5 +1,5 @@
 function PlaceContent(){
-    var headerHeight = $("#header").height;
+    var headerHeight = $("#header").height();
     $("#content").css("margin-top", headerHeight + "px");
 }
 
