@@ -1,11 +1,11 @@
 function LoadHeader(){
   $("#header").load("../pages/header.html");
+  PlaceContent();
 }
 
 function LoadContent(content){
   $("#content").load("../pages/" + content + ".html");
   SetActiveTab(content);
-  PlaceContent();
 }
 
 function SetActiveTab(tabName){
