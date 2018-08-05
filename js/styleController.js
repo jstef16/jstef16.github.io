@@ -1,6 +1,6 @@
 function PlaceContent(){
-    var headerHeight = $("#header").height();
-    $("#content").css("margin-top", headerHeight + "px");
+    var headerHeight = $("#header").outerHeight(true);
+    $("#content").css("top", headerHeight);
 }
 
 $(window).resize(function() {
