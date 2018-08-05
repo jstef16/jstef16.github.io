@@ -5,6 +5,7 @@ function LoadHeader(){
 function LoadContent(content){
   $("#content").load("../pages/" + content + ".html");
   SetActiveTab(content);
+  ExtendContent();
 }
 
 function SetActiveTab(tabName){
