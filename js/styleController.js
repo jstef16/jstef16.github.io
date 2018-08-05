@@ -3,4 +3,4 @@ function SetHeaderHeight(){
     $("#content").css("margin-top", headerHeight + "px");
 }
 
-$window.resize(SetHeaderHeight());
+$(window).resize(SetHeaderHeight());
