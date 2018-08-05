@@ -1,6 +1,5 @@
 function LoadHeader(){
   $("#header").load("../pages/header.html");
-  PlaceContent();
 }
 
 function LoadContent(content){
