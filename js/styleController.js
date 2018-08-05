@@ -6,3 +6,5 @@ function PlaceContent(){
 $(window).resize(function() {
     PlaceContent();
 });
+
+$(PlaceContent);
