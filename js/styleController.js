@@ -1,6 +1,6 @@
-function SetHeaderHeight(){
+function PlaceContent(){
     var headerHeight = $("#header").height;
     $("#content").css("margin-top", headerHeight + "px");
 }
 
-$(window).resize(SetHeaderHeight());
+$(window).resize(PlaceContent());
