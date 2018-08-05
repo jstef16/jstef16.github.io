@@ -10,8 +10,10 @@
 .content {
     background-color: #dce0e5;
     height: 100%;
-    overflow: auto;
     padding: 16px;
+    position: absolute;
+    top: 10;
+    z-index: 98;
 }
 
 .content ul {
@@ -28,7 +30,8 @@
     padding-top: 10px;
     position: fixed;
     top: 0;
-    width:100%;
+    width: 100%;
+    z-index: 99;
 }
 
 .header a{
