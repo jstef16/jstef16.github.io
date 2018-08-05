@@ -6,7 +6,3 @@ function PlaceContent(){
 $(window).resize(function() {
     PlaceContent();
 });
-
-$("#header").resize(function() {
-    PlaceContent();
-});
