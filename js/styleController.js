@@ -7,6 +7,6 @@ $(window).resize(function() {
     PlaceContent();
 });
 
-$(window).load(function() {
+$("#header").resize(function() {
     PlaceContent();
 });
