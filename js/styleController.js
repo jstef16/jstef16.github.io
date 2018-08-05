@@ -7,6 +7,6 @@ $(window).resize(function() {
     PlaceContent();
 });
 
-$(document).ready(function() {
+$(window).load(function() {
     PlaceContent();
 });
