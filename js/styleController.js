@@ -10,12 +10,16 @@ function PlaceContent(){
 }
 
 function ExtendContent(){
-    var contentHeight = $("#contentBlock").outerHeight(true);
+    var contentBlockHeight = $("#contentBlock").outerHeight(true);
+    var contentHeight = $("#content").outerHeight(true);
 
-    if(contentHeight > 0){
-        $("#content").css("padding-bottom", contentHeight + 16);
+    if(contentBlockHeight > 0 && contentHeight > 0 && contentBlockHeight >= contentHeight ){
+        $("#content").css("padding-bottom", contentBlockHeight - contentHeight + 16);
     }
-    else{
+    else if(contentBlockHeight > 0 && contentHeight > 0 && contentBlockHeight < contentHeight){
+        $("#content").css("padding-bottom", 16);
+    }
+    else if(contentHeight == null){
         ExtendContent();
     }
 }
