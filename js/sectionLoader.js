@@ -4,6 +4,7 @@ function LoadHeader(){
 
 function LoadContent(content){
   $("#content").load("../pages/" + content + ".html", function () {SetActiveTab(content)});
+  $("#content").scrollTop();
 }
 
 function SetActiveTab(tabName){
