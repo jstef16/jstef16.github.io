@@ -14,7 +14,7 @@ function ExtendContent(){
     var contentHeight = $("#content").outerHeight(true);
 
     if(contentBlockHeight > 0 && contentHeight > 0 && contentBlockHeight >= contentHeight ){
-        $("#content").css("padding-bottom", contentBlockHeight - contentHeight + 16);
+        $("#content").css("padding-bottom", contentBlockHeight - contentHeight + 32);
     }
     else if(contentBlockHeight > 0 && contentHeight > 0 && contentBlockHeight < contentHeight){
         $("#content").css("padding-bottom", 16);
